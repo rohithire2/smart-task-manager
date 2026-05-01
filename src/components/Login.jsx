@@ -29,10 +29,9 @@ function Login({ onLogin, alert }) {
           <CheckSquare size={28} />
         </div>
         <p className="text-uppercase text-primary fw-semibold small mb-2">Smart Task</p>
-        <h1 className="display-6 fw-bold mb-3">Task management that knows who needs what.</h1>
+        <h1 className="display-6 fw-bold mb-3">Task Management Dashboard</h1>
         <p className="text-secondary mb-4">
-          Sign in as an admin to manage team work, or as an employee to focus on assigned
-          tasks.
+          Sign in to manage tasks, assign work, and track progress.
         </p>
 
         {alert && <div className={`alert alert-${alert.type}`}>{alert.message}</div>}
